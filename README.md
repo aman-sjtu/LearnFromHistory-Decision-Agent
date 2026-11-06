@@ -1,2 +1,22 @@
-# LearnFromHistory-Decision-Agent
-An AI decision-making agent framework inspired by Zizhi Tongjian &amp; Chinese classics. Using a 3-round diagnostic Q&amp;A to map 90% of your real-world context, it aligns your situation with historical precedents to deliver risk-mitigated, actionable strategies for career and life choices.
+# 🏛️ 以史为鉴 · 九成识局 (Learn From History Decision Agent)
+
+> “历史不会重复，但总是押着相同的韵脚。”
+
+这是一个将《资治通鉴》、二十四史及诸子百家智慧转化为**现代职场与人生决策沙盘**的 AI Agent 提示词框架（Skill / Workspace Rule）。
+
+## ✨ 核心设计理念：拒绝“盲人摸象”
+市面上的历史类 AI 往往急于掉书袋、做“事后诸葛亮”。本框架强制执行**【九成识局 -> 鉴史 -> 推演】**的三步法：
+1. **九成识局（强制三轮剥洋葱问答）：** 在给出任何建议前，AI 必须通过至少 3 轮、每轮 1~2 个极其敏锐的切片问题，摸清你所处的权力生态、精力筹码与心理底牌。
+2. **两司马之镜（鉴史）：** 结合《史记》察人性格、《资治通鉴》审时度势，还原古人决策时的“信息差”，拒绝马后炮。
+3. **三策推演（破局）：** 输出可落地的上策（防守型进攻）、中策（稳健）、下策（盲动风险）。
+
+## 🚀 如何在 WorkBuddy 中独立部署（不污染日常对话）
+
+### 方式一：本地工作空间隔离法（推荐，全版本通用）
+1. 在电脑上新建一个专属文件夹（例如：`人生决策沙盘`）。
+2. 将本仓库中的 `CODEBUDDY.md` 下载并放入该文件夹根目录。
+3. 打开 **WorkBuddy**，点击输入框下方的 **“选择工作空间 (Select Workspace)”**，选中该文件夹。
+4. 直接发送你的困惑，WorkBuddy 会自动加载军师人设，且绝不干扰你其他工作空间的日常办公。
+
+### 方式二：斜杠指令唤醒法
+在 WorkBuddy 设置中新建本地 Skill（如 `/iswj`），将 `CODEBUDDY.md` 的内容粘贴进去。需要时在空白对话中输入 `/iswj` 即可唤醒。
